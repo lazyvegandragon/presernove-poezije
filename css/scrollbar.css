@@ -1,0 +1,18 @@
+/* This will affect the scrollbar globally */
+* {
+    /* Make the scrollbar thin */
+    scrollbar-width: thin;
+}
+
+/* This will affect the scrollbar in Webkit browsers like Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+}
+
+nav{
+    width: 100vw;
+}
